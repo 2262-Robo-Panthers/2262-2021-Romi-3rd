@@ -1,3 +1,3 @@
 # 2262-2021-Romi-3rd
 
-Romi Golf Ball Challeneg 2262
+Romi Golf Ball Challenge 2262
