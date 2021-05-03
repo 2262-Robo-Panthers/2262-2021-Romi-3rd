@@ -46,6 +46,10 @@ public class Drivetrain extends SubsystemBase {
     m_diffDrive.arcadeDrive(xaxisSpeed, zaxisRotate);
   }
 
+  public void curvatureDrive(double xSpeed, double zRotation, boolean isQuickTurn) {
+    m_diffDrive.curvatureDrive(xSpeed, zRotation, isQuickTurn);
+  }
+
   public void resetEncoders() {
     m_leftEncoder.reset();
     m_rightEncoder.reset();
